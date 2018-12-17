@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[ProductType]
 (
-	[Id] INT NOT NULL PRIMARY KEY, 
-    [TypeName] NVARCHAR(150) NOT NULL, 
+	[ProductTypeId] INT NOT NULL PRIMARY KEY, 
+    [ProductTypeName] NVARCHAR(150) NOT NULL, 
     [CreatedDate] DATETIME NULL, 
     [ModifiedDate] DATETIME NULL
 )

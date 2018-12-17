@@ -62,4 +62,7 @@
     <Build Include="Product.sql" />
     <Build Include="ProductType.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="ecommerce.refactorlog" />
+  </ItemGroup>
 </Project>
