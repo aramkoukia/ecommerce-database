@@ -1,7 +1,6 @@
 ﻿CREATE TABLE [dbo].[ProductType]
 (
-	[ProductTypeId] INT NOT NULL PRIMARY KEY, 
+	[ProductTypeId] INT NOT NULL IDENTITY(1,1) PRIMARY KEY, 
     [ProductTypeName] NVARCHAR(150) NOT NULL, 
-    [CreatedDate] DATETIME NULL, 
-    [ModifiedDate] DATETIME NULL
+    [ModifiedDate] DATETIME NOT NULL DEFAULT getdate()
 )

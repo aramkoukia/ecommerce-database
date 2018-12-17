@@ -1,13 +1,16 @@
 ﻿CREATE TABLE [dbo].[Product]
 (
-	[ProductId] INT NOT NULL PRIMARY KEY, 
+	[ProductId] INT NOT NULL IDENTITY(1,1) PRIMARY KEY, 
     [ProductCode] NVARCHAR(150) NOT NULL,
     [Barcode] NVARCHAR(150) NOT NULL,
+	[Sku] NVARCHAR(150) NOT NULL,
     [ProductName] NVARCHAR(250) NOT NULL, 
-    [ProductTypeId] INT NULL, 
-	[SalesPrice] Decimal(18, 2) NULL, 
+	[ProductDescription] NVARCHAR(500) NULL, 
+    [ProductTypeId] INT NOT NULL, 
+	[ChargeTaxes] BIT NOT NULL, 
+	[AllowOutOfStockPurchase] BIT NOT NULL, 
+	[SalesPrice] Decimal(18, 2) NOT NULL, 
 	[PurchasePrice] Decimal(18, 2) NULL, 
-    [CreatedDate] DATETIME NULL, 
-    [ModifiedDate] DATETIME NULL, 
+    [ModifiedDate] DATETIME NOT NULL DEFAULT getdate(), 
     CONSTRAINT [FK_Product_ToProductType] FOREIGN KEY (ProductTypeId) REFERENCES [ProductType]([ProductTypeId])
 )
