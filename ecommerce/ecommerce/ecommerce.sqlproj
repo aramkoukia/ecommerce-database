@@ -63,6 +63,10 @@
     <Build Include="ProductType.sql" />
     <Build Include="Customer.sql" />
     <Build Include="Location.sql" />
+    <Build Include="Order.sql" />
+    <Build Include="Tax.sql" />
+    <Build Include="OrderDetailTax.sql" />
+    <Build Include="OrderDetail.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ecommerce.refactorlog" />
