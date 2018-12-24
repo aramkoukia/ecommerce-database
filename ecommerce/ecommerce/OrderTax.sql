@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[OrderDetailTax]
+﻿CREATE TABLE [dbo].[OrderTax]
 (
 	[OrderTaxId] INT NOT NULL PRIMARY KEY, 
     [OrderId] INT NOT NULL, 
