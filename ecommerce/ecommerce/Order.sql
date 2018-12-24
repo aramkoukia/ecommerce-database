@@ -2,6 +2,7 @@
 (
 	[OrderId] INT NOT NULL IDENTITY(1,1) PRIMARY KEY, 
 	[CustomerId] INT NULL, 
+	[LocationId] INT NULL, 
     [OrderDate] DATETIME NOT NULL, 
     [Total] DECIMAL(18, 2) NOT NULL, 
     [SubTotal] DECIMAL(18, 2) NOT NULL, 
@@ -14,5 +15,6 @@
     [PoNumber] NCHAR(10) NULL, 
     [Status] NVARCHAR(50) NOT NULL, 
     [CreatedDate] DATETIME NOT NULL, 
-    [CreatedByUserId] NVARCHAR(450) NOT NULL
+    [CreatedByUserId] NVARCHAR(450) NOT NULL,
+	CONSTRAINT [FK_Location_ToOrder] FOREIGN KEY ([LocationId]) REFERENCES [Location]([LocationId]),
 )

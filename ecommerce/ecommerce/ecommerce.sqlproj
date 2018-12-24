@@ -69,6 +69,7 @@
     <Build Include="OrderDetail.sql" />
     <Build Include="OrderPayment.sql" />
     <Build Include="PaymentType.sql" />
+    <Build Include="ProductInventory.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ecommerce.refactorlog" />
