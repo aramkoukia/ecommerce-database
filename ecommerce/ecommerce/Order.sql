@@ -14,5 +14,5 @@
     [PoNumber] NCHAR(10) NULL, 
     [Status] NVARCHAR(50) NOT NULL, 
     [CreatedDate] DATETIME NOT NULL, 
-    [CreatedByUserId] INT NOT NULL
+    [CreatedByUserId] NVARCHAR(450) NOT NULL
 )
