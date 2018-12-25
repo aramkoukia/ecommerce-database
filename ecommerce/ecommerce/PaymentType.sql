@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[PaymentType]
 (
 	[PaymentTypeId] INT NOT NULL PRIMARY KEY, 
-    [PaymentTypeName] INT NOT NULL, 
+    [PaymentTypeName] NVARCHAR(50) NOT NULL, 
 )
