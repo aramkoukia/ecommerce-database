@@ -5,7 +5,6 @@
     [PaymentAmount] DECIMAL(18, 2) NOT NULL, 
     [PaymentDate] DATETIME NOT NULL, 
 	[PaymentTypeId] INT NOT NULL,
-    [CreatoreUserId] INT NOT NULL, 
     [CreatedDate] DATETIME NOT NULL, 
-    [CreatedByUserId] INT NOT NULL
+    [CreatedByUserId] NVARCHAR(450) NOT NULL
 )
