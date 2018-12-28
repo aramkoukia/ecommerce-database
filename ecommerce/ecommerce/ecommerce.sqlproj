@@ -71,6 +71,13 @@
     <Build Include="PaymentType.sql" />
     <Build Include="ProductInventory.sql" />
     <Build Include="ProductInventoryHistory.sql" />
+    <Build Include="Roles.sql" />
+    <Build Include="Users.sql" />
+    <Build Include="UserClaims.sql" />
+    <Build Include="RoleClaims.sql" />
+    <Build Include="UserLogins.sql" />
+    <Build Include="UserRoles.sql" />
+    <Build Include="UserTokens.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ecommerce.refactorlog" />
