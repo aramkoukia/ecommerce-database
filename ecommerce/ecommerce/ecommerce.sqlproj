@@ -79,6 +79,8 @@
     <Build Include="UserRoles.sql" />
     <Build Include="UserTokens.sql" />
     <Build Include="UserLocation.sql" />
+    <Build Include="Purchase.sql" />
+    <Build Include="PurchaseDetail.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ecommerce.refactorlog" />
