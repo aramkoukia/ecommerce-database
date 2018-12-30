@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[OrderPurchase]
+﻿CREATE TABLE [dbo].[PurchaseDetail]
 (
 	[PurchaseDetailId] INT NOT NULL IDENTITY(1,1) PRIMARY KEY, 
     [PurchaseId] INT NOT NULL, 
