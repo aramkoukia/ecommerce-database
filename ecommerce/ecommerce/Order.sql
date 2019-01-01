@@ -16,5 +16,6 @@
     [Status] NVARCHAR(50) NOT NULL, 
     [CreatedDate] DATETIME NOT NULL, 
     [CreatedByUserId] NVARCHAR(450) NOT NULL,
-	CONSTRAINT [FK_Location_ToOrder] FOREIGN KEY ([LocationId]) REFERENCES [Location]([LocationId]),
+	[OriginalOrderId] INT NULL, 
+    CONSTRAINT [FK_Location_ToOrder] FOREIGN KEY ([LocationId]) REFERENCES [Location]([LocationId]),
 )
