@@ -12,7 +12,7 @@
     [DiscountId] INT NULL, 
     [PstNumber] NVARCHAR(50) NULL, 
     [Notes] NVARCHAR(500) NULL, 
-    [PoNumber] NCHAR(10) NULL, 
+    [PoNumber] NVARCHAR(500) NULL, 
     [Status] NVARCHAR(50) NOT NULL, 
     [CreatedDate] DATETIME NOT NULL, 
     [CreatedByUserId] NVARCHAR(450) NOT NULL,
