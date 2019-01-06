@@ -8,6 +8,7 @@
 	[BinCode] NVARCHAR(100) NOT NULL,
 	[CreatedByUserId] NVARCHAR(450) NOT NULL,
     [Notes] NVARCHAR(450) NOT NULL, 
+    [ChangedBalance] DECIMAL(18, 2) NULL, 
     CONSTRAINT [FK_ProductInventoryHistory_ToProduct] FOREIGN KEY (ProductId) REFERENCES [Product]([ProductId]),
 	CONSTRAINT [FK_ProductInventoryHistory_ToLocation] FOREIGN KEY (LocationId) REFERENCES [Location]([LocationId])
 )
