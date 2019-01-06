@@ -9,6 +9,6 @@
     [CreatedByUserId] NVARCHAR(450) NOT NULL,
 	[ChequeNo] NVARCHAR(100) NULL,
 	[AuthCode] NVARCHAR(100) NULL,
-	[CreditCard] NVARCHAR(100) NULL
-	
+	[CreditCard] NVARCHAR(100) NULL,
+	[Notes] NVARCHAR(500) NULL
 )
