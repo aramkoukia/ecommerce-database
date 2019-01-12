@@ -217,4 +217,11 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="CreatoreUserId" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="a102333b-5fde-41ba-a7fd-dba983290356" ChangeDateTime="01/12/2019 03:00:31">
+    <Property Name="ElementName" Value="[dbo].[OrderDetail].[DiscountPrice]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[OrderDetail]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DiscountAmount" />
+  </Operation>
 </Operations>
