@@ -13,5 +13,6 @@
     [CreatedDate] DATETIME NOT NULL, 
     [CreatedByUserId] NVARCHAR(450) NOT NULL,
 	[OriginalOrderId] INT NULL, 
+	[TotalDiscount] DECIMAL(18, 2) NOT NULL, 
     CONSTRAINT [FK_Location_ToOrder] FOREIGN KEY ([LocationId]) REFERENCES [Location]([LocationId]),
 )
