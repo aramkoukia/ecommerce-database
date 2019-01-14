@@ -81,6 +81,7 @@
     <Build Include="UserLocation.sql" />
     <Build Include="Purchase.sql" />
     <Build Include="PurchaseDetail.sql" />
+    <Build Include="Discount.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ecommerce.refactorlog" />
