@@ -9,5 +9,6 @@
 	[DeliveryDate] DATETIME NOT NULL,
     [CreatedDate] DATETIME NOT NULL, 
     [CreatedByUserId] NVARCHAR(450) NOT NULL, 
-    [Status] NVARCHAR(50) NULL,
+    [Status] NVARCHAR(50) NULL, 
+    [PoNumber] NVARCHAR(50) NULL,
 )
