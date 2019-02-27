@@ -12,5 +12,6 @@
 	[SalesPrice] Decimal(18, 2) NOT NULL, 
 	[PurchasePrice] Decimal(18, 2) NULL, 
     [ModifiedDate] DATETIME NOT NULL DEFAULT getdate(), 
+    [Disabled] BIT NOT NULL DEFAULT 0, 
     CONSTRAINT [FK_Product_ToProductType] FOREIGN KEY (ProductTypeId) REFERENCES [ProductType]([ProductTypeId])
 )
