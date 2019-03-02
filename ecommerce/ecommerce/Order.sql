@@ -15,5 +15,7 @@
 	[OriginalOrderId] INT NULL, 
 	[TotalDiscount] DECIMAL(18, 2) NOT NULL, 
     [Email] NVARCHAR(50) NULL, 
+    [RestockingFeePercent] DECIMAL(18, 2) NOT NULL DEFAULT 0, 
+    [RestockingFeeAmount] DECIMAL(18, 2) NOT NULL DEFAULT 0, 
     CONSTRAINT [FK_Location_ToOrder] FOREIGN KEY ([LocationId]) REFERENCES [Location]([LocationId]),
 )
