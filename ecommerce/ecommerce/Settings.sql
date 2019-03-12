@@ -7,5 +7,7 @@
 	[FromEmailPassword] NVARCHAR(100) NOT NULL,
 	[SmtpPort] INT NOT NULL,
 	[SmtpHost] NVARCHAR(100) NOT NULL,
-	[SmtpUseSsl] BIT NOT NULL
+	[SmtpUseSsl] BIT NOT NULL, 
+    [WarnInSufficientStockOnOrder] BIT NOT NULL DEFAULT 0, 
+    [BlockInSufficientStockOnOrder] BIT NOT NULL DEFAULT 0
 )
