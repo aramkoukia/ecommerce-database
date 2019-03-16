@@ -18,5 +18,6 @@
     [Email] NVARCHAR(100) NULL,
     [Website] NVARCHAR(100) NULL,
     [Status] NVARCHAR(50) NULL,
-	[Segment] NVARCHAR(50) NULL
+	[Segment] NVARCHAR(50) NULL, 
+    [StoreCredit] decimal(12,2) NULL,
 )
