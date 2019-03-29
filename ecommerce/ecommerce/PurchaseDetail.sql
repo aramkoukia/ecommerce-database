@@ -7,6 +7,7 @@
     [UnitPrice] DECIMAL(18, 2) NOT NULL, 
     [TotalPrice] DECIMAL(18, 2) NOT NULL, 
     [Status] NVARCHAR(50) NULL,  
+    [PaidDate] DATETIME NULL, 
     [EstimatedDelivery] DATETIME NULL, 
     [ArrivedAtLocationId] INT NULL, 
     [ArrivedDate] DATETIME NULL,
