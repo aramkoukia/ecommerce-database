@@ -14,3 +14,7 @@
     CONSTRAINT [FK_OrderDetail_ToOrder] FOREIGN KEY ([OrderId]) REFERENCES [Order]([OrderId]),
 	CONSTRAINT [FK_Product_ToOrder] FOREIGN KEY ([ProductId]) REFERENCES [Product]([ProductId])
 )
+
+GO
+
+CREATE NONCLUSTERED INDEX [nci_wi_OrderDetail_4EB26110C9F7907300ABAD2AC8521FFD] ON [dbo].[OrderDetail] ([OrderId]) INCLUDE ([Amount], [DiscountAmount], [DiscountPercent], [DiscountType], [ProductId], [SubTotal], [Total], [TotalDiscount], [UnitPrice]) WITH (ONLINE = ON)

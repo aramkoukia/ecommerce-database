@@ -19,3 +19,7 @@
     [RestockingFeeAmount] DECIMAL(18, 2) NOT NULL DEFAULT 0, 
     CONSTRAINT [FK_Location_ToOrder] FOREIGN KEY ([LocationId]) REFERENCES [Location]([LocationId]),
 )
+
+GO
+
+CREATE NONCLUSTERED INDEX [nci_wi_Order_0052A9DD875372C0B74C8361429B0C33] ON [dbo].[Order] ([Status], [CustomerId]) INCLUDE ([LocationId], [OrderDate], [SubTotal], [Total], [TotalDiscount]) WITH (ONLINE = ON)

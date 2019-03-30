@@ -8,11 +8,13 @@
     [TotalPrice] DECIMAL(18, 2) NOT NULL, 
     [Status] NVARCHAR(50) NULL,  
     [PaidDate] DATETIME NULL, 
+    [PoNumber] NVARCHAR(100) NULL,
     [EstimatedDelivery] DATETIME NULL, 
     [ArrivedAtLocationId] INT NULL, 
     [ArrivedDate] DATETIME NULL,
     [CreatedDate] DATETIME NULL, 
-    [CreatedByUserId] NVARCHAR(450) NULL,	
+    [CreatedByUserId] NVARCHAR(450) NULL,
+
     CONSTRAINT [FK_PurchaseDetail_ToPurchase] FOREIGN KEY ([PurchaseId]) REFERENCES [Purchase]([PurchaseId]),
 	CONSTRAINT [FK_Product_ToPurchase] FOREIGN KEY ([ProductId]) REFERENCES [Product]([ProductId])
 )
