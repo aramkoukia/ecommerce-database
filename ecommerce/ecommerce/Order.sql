@@ -18,6 +18,8 @@
     [RestockingFeePercent] DECIMAL(18, 2) NOT NULL DEFAULT 0, 
     [RestockingFeeAmount] DECIMAL(18, 2) NOT NULL DEFAULT 0, 
 	[IsAccountReturn] BIT NOT NULL DEFAULT 0, 
+    [AuthCode] NVARCHAR(50) NULL,
+    [CardLastFourDigits] NVARCHAR(50) NULL,
     CONSTRAINT [FK_Location_ToOrder] FOREIGN KEY ([LocationId]) REFERENCES [Location]([LocationId]),
 )
 

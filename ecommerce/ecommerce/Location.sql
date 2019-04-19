@@ -6,5 +6,5 @@
     [Country] NVARCHAR(100) NULL, 
     [Province] NVARCHAR(100) NULL, 
     [PostalCode] NVARCHAR(100) NULL, 
-    [PhoneNumber] NCHAR(10) NULL
+    [PhoneNumber] NVARCHAR(100) NULL
 )
