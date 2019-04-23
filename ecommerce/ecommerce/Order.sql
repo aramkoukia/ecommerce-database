@@ -20,6 +20,8 @@
 	[IsAccountReturn] BIT NOT NULL DEFAULT 0, 
     [CardAuthCode] NVARCHAR(50) NULL,
     [CardLastFourDigits] NVARCHAR(50) NULL,
+	[PhoneNumber] NVARCHAR(100) NULL,
+	[AuthorizedBy] NVARCHAR(100) NULL,
     CONSTRAINT [FK_Location_ToOrder] FOREIGN KEY ([LocationId]) REFERENCES [Location]([LocationId]),
 )
 
