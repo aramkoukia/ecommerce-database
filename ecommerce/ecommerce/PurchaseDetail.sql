@@ -5,7 +5,7 @@
 	[ProductId] INT NOT NULL, 
     [Amount] DECIMAL(18, 2) NOT NULL, 
     [UnitPrice] DECIMAL(18, 2) NOT NULL, 
-    [OverheadCost] DECIMAL(18, 2) NOT NULL DEFAULT 0, 
+    [OverheadCost] DECIMAL(18, 2) NULL DEFAULT 0, 
     [TotalPrice] DECIMAL(18, 2) NOT NULL, 
     [Status] NVARCHAR(50) NULL,  
     [PaidDate] DATETIME NULL, 
