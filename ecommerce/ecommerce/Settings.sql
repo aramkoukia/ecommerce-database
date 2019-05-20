@@ -9,5 +9,6 @@
 	[SmtpHost] NVARCHAR(100) NOT NULL,
 	[SmtpUseSsl] BIT NOT NULL, 
     [WarnInSufficientStockOnOrder] BIT NOT NULL DEFAULT 0, 
-    [BlockInSufficientStockOnOrder] BIT NOT NULL DEFAULT 0
+    [BlockInSufficientStockOnOrder] BIT NOT NULL DEFAULT 0, 
+    [AllowedIPAddresses] NVARCHAR(MAX) NULL
 )
