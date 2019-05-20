@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[ProductPackage]
 (
-    [ProductPackageId] INT NOT NULL PRIMARY KEY,
+    [ProductPackageId] INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
 	[ProductId] INT NOT NULL, 
     [Package] NVARCHAR(150) NOT NULL,
     [PackagePrice] decimal(20,2) NOT NULL,
