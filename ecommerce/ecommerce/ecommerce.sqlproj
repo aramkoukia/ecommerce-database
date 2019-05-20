@@ -84,6 +84,7 @@
     <Build Include="Discount.sql" />
     <Build Include="Settings.sql" />
     <Build Include="CustomerStoreCredit.sql" />
+    <Build Include="ProductPackage.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ecommerce.refactorlog" />
