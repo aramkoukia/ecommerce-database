@@ -19,5 +19,6 @@
     [Website] NVARCHAR(100) NULL,
     [Status] NVARCHAR(50) NULL,
 	[Segment] NVARCHAR(50) NULL, 
-    [StoreCredit] decimal(12,2) NULL DEFAULT 0,
+    [StoreCredit] decimal(12,2) NULL DEFAULT 0, 
+    [Disabled] BIT NOT NULL DEFAULT 0,
 )
