@@ -10,5 +10,6 @@
 	[SmtpUseSsl] BIT NOT NULL, 
     [WarnInSufficientStockOnOrder] BIT NOT NULL DEFAULT 0, 
     [BlockInSufficientStockOnOrder] BIT NOT NULL DEFAULT 0, 
-    [AllowedIPAddresses] NVARCHAR(MAX) NULL
+    [AllowedIPAddresses] NVARCHAR(MAX) NULL, 
+    [EnablePosIntegration] BIT NOT NULL DEFAULT 0
 )
