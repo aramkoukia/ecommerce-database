@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[ClientPosSettings]
 (
-	[Id] INT NOT NULL PRIMARY KEY,
+	[Id] INT NOT NULL,
 	[ClientIp] NVARCHAR(100) NOT NULL,
 	[StoreId] NVARCHAR(100) NOT NULL,
 	[TerminalId] NVARCHAR(100) NOT NULL,
