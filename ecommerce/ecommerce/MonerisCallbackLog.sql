@@ -1,6 +1,7 @@
 ﻿CREATE TABLE [dbo].[MonerisCallbackLog]
 (
 	[Id] INT IDENTITY(1,1) NOT NULL,
+	[OrderId] INT NULL,
         [Completed] NVARCHAR(500) NULL,
         [TransType] NVARCHAR(500) NULL,
         [Error] NVARCHAR(500) NULL,

@@ -1,6 +1,8 @@
 ﻿CREATE TABLE [dbo].[MonerisTransactionLog]
 (
 	[Id] INT IDENTITY(1,1) NOT NULL,
+	[OrderId] INT NULL,
+	[Amount] DECIMAL(10,2) NULL,
 	[ClientIp] NVARCHAR(100) NOT NULL,
     [StoreId] NVARCHAR(100) NOT NULL,
     [TerminalId] NVARCHAR(100) NOT NULL,
