@@ -88,6 +88,7 @@
     <Build Include="ClientPosSettings.sql" />
     <Build Include="MonerisTransactionLog.sql" />
     <Build Include="MonerisCallbackLog.sql" />
+    <Build Include="PortalSettings.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ecommerce.refactorlog" />
