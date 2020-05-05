@@ -21,6 +21,7 @@
 	[Segment] NVARCHAR(50) NULL, 
     [StoreCredit] decimal(12,2) NULL DEFAULT 0, 
     [Disabled] BIT NOT NULL DEFAULT 0, 
+    [CreditCardOnFile] BIT NOT NULL DEFAULT 0, 
     [MergeToCustomerId] INT NULL,
 
 )
