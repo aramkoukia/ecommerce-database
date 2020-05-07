@@ -231,4 +231,18 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="WarnInSufficientStockOnOrder" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="cb24c214-b48c-43a2-bee2-c624b586ee56" ChangeDateTime="04/17/2020 22:42:56">
+    <Property Name="ElementName" Value="[dbo].[PortalSettings].[SidebarImageurl]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PortalSettings]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SidebarImageUrl" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ada49f39-0957-465e-ad25-a7a21261d9f2" ChangeDateTime="04/17/2020 22:43:03">
+    <Property Name="ElementName" Value="[dbo].[PortalSettings].[LogoImageurl]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PortalSettings]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LogoImageUrl" />
+  </Operation>
 </Operations>

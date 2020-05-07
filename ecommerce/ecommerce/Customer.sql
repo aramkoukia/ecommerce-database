@@ -23,5 +23,5 @@
     [Disabled] BIT NOT NULL DEFAULT 0, 
     [CreditCardOnFile] BIT NOT NULL DEFAULT 0, 
     [MergeToCustomerId] INT NULL,
-
+    [ChargePreference] NVARCHAR(100) NULL,
 )
