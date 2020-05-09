@@ -245,4 +245,11 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="LogoImageUrl" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="93d0cda9-e461-4759-afa6-3ed24a12b000" ChangeDateTime="05/09/2020 17:28:03">
+    <Property Name="ElementName" Value="[dbo].[ProductType].[ImagePath]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ProductType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ThumbnailImagePath" />
+  </Operation>
 </Operations>
