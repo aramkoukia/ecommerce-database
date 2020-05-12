@@ -252,4 +252,18 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="ThumbnailImagePath" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="3535950f-3e86-4b45-8456-d30806f65d30" ChangeDateTime="05/12/2020 16:29:16">
+    <Property Name="ElementName" Value="[dbo].[PaymentType].[ApplicationStepId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PaymentType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="StepId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0652885a-2182-4aa4-b053-05491be087e7" ChangeDateTime="05/12/2020 16:29:20">
+    <Property Name="ElementName" Value="[dbo].[PaymentType].[Step]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PaymentType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="StepDescription" />
+  </Operation>
 </Operations>
