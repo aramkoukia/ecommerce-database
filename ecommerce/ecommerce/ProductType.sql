@@ -9,5 +9,6 @@
     [SortOrder] INT DEFAULT 0,
     [ShowOnWebsite] BIT DEFAULT 1,
     [Disabled] BIT DEFAULT 0, 
-    [ParentProductTypeId] INT NULL
+    [ParentProductTypeId] INT NULL,
+    [SlugsUrl] NVARCHAR(500) NULL,
 )
