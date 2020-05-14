@@ -2,6 +2,7 @@
 (
 	[ProductWebsiteId] INT NOT NULL PRIMARY KEY, 
     [ProductId] INT NOT NULL,
+	[SlugsUrl] NVARCHAR(500) NULL, 
 	[Detail] NVARCHAR(max) NULL, 
 	[Description] NVARCHAR(Max) NULL, 
 	[WarrantyInformation] NVARCHAR(Max) NULL,
