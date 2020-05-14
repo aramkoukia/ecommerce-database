@@ -91,6 +91,8 @@
     <Build Include="PortalSettings.sql" />
     <Build Include="ApplicationStep.sql" />
     <Build Include="ApplicationStepDetail.sql" />
+    <Build Include="ProductWebsite.sql" />
+    <Build Include="ProductWebsiteImage.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ecommerce.refactorlog" />
