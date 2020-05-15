@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[ProductWebsite]
 (
-	[ProductWebsiteId] INT NOT NULL PRIMARY KEY, 
+	[ProductWebsiteId] INT NOT NULL IDENTITY(1, 1) PRIMARY KEY, 
     [ProductId] INT NOT NULL,
 	[SlugsUrl] NVARCHAR(500) NULL, 
 	[Detail] NVARCHAR(max) NULL, 
