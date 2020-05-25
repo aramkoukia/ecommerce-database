@@ -6,5 +6,5 @@
     [StepDetailDescription] NVARCHAR(MAX) NULL, 
     [ThumbnailImagePath] NVARCHAR(500) NULL, 
     [SortOrder] INT NOT NULL,
-    CONSTRAINT [FK_ApplicationStepDetail_ToApplicationStep] FOREIGN KEY (ApplicationStepId) REFERENCES [ApplicationStep](ApplcationStepId),
+    CONSTRAINT [FK_ApplicationStepDetail_ToApplicationStep] FOREIGN KEY (ApplicationStepId) REFERENCES [ApplicationStep](ApplicationStepId),
 )
