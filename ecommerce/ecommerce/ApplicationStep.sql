@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[ApplicationStep]
 (
-	[StepId] INT NOT NULL PRIMARY KEY,
+	[ApplcationStepId] INT NOT NULL PRIMARY KEY,
     [StepTitle] NVARCHAR(500) NOT NULL,
     [StepDescription] NVARCHAR(MAX) NULL, 
     [IsRangeValue] BIT NOT NULL,
