@@ -93,6 +93,8 @@
     <Build Include="ApplicationStepDetail.sql" />
     <Build Include="ProductWebsite.sql" />
     <Build Include="ProductWebsiteImage.sql" />
+    <Build Include="ProductTag.sql" />
+    <Build Include="Tag.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ecommerce.refactorlog" />
