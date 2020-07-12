@@ -11,5 +11,7 @@
     [WarnInSufficientStockOnOrder] BIT NOT NULL DEFAULT 0, 
     [BlockInSufficientStockOnOrder] BIT NOT NULL DEFAULT 0, 
     [AllowedIPAddresses] NVARCHAR(MAX) NULL, 
-    [EnablePosIntegration] BIT NOT NULL DEFAULT 0
+    [EnablePosIntegration] BIT NOT NULL DEFAULT 0,
+	[WebsiteConnectionString] NVARCHAR(MAX) NULL,
+	[WebsiteProductsSyncQuery] NVARCHAR(MAX) NULL
 )
