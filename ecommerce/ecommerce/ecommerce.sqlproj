@@ -97,6 +97,7 @@
     <Build Include="Tag.sql" />
     <Build Include="ApplicationStepDetailTag.sql" />
     <Build Include="CustomerStatementSetting.sql" />
+    <Build Include="InvoiceEmailAndPrintSetting.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ecommerce.refactorlog" />

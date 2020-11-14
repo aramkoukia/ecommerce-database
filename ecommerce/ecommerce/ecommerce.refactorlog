@@ -266,4 +266,11 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="StepDescription" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="96be7e62-809e-4d4c-90ec-cd90c98b100a" ChangeDateTime="11/14/2020 18:51:27">
+    <Property Name="ElementName" Value="[dbo].[InvoiceEmailAndPrintSetting].[InvoiceFooter1]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[InvoiceEmailAndPrintSetting]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Footer1" />
+  </Operation>
 </Operations>

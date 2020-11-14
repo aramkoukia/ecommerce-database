@@ -7,5 +7,7 @@
     [Province] NVARCHAR(100) NULL, 
     [PostalCode] NVARCHAR(100) NULL, 
     [PhoneNumber] NVARCHAR(100) NULL, 
-    [Disabled] BIT NOT NULL DEFAULT 0
+    [Disabled] BIT NOT NULL DEFAULT 0, 
+    [ShowOnInvoice] BIT NOT NULL DEFAULT 1, 
+    [City] NVARCHAR(100) NULL
 )
