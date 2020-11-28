@@ -98,6 +98,7 @@
     <Build Include="ApplicationStepDetailTag.sql" />
     <Build Include="CustomerStatementSetting.sql" />
     <Build Include="InvoiceEmailAndPrintSetting.sql" />
+    <Build Include="WebsiteSlider.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ecommerce.refactorlog" />

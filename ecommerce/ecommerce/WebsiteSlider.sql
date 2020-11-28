@@ -1,0 +1,10 @@
+﻿CREATE TABLE [dbo].[WebsiteSlider]
+(
+	[Id] INT NOT NULL IDENTITY(1, 1) PRIMARY KEY, 
+    [SubTitle] NVARCHAR(500) NULL,
+	[Title] NVARCHAR(500) NULL, 
+	[Url] NVARCHAR(500) NULL, 
+	[Image] NVARCHAR(500) NULL, 
+	[BgImgae] NVARCHAR(500) NULL,
+	[BgColor] NVARCHAR(500) NULL,
+)
