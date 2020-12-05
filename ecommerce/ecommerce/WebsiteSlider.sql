@@ -5,6 +5,6 @@
 	[Title] NVARCHAR(500) NULL, 
 	[Url] NVARCHAR(500) NULL, 
 	[Image] NVARCHAR(500) NULL, 
-	[BgImgae] NVARCHAR(500) NULL,
+	[BgImage] NVARCHAR(500) NULL,
 	[BgColor] NVARCHAR(500) NULL,
 )

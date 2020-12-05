@@ -273,4 +273,18 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="Footer1" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="6391d3d6-1c6c-41be-9718-c3b349f19439" ChangeDateTime="11/29/2020 00:53:40">
+    <Property Name="ElementName" Value="[dbo].[WebsiteSlider].[BgImgae]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[WebsiteSlider]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BgImage" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="62a3f0f3-7b2e-4de9-a9f7-0fcba6e4136c" ChangeDateTime="12/05/2020 22:16:37">
+    <Property Name="ElementName" Value="[dbo].[LoginHistory].[UserName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[LoginHistory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserId" />
+  </Operation>
 </Operations>

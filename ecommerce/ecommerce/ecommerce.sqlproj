@@ -99,6 +99,7 @@
     <Build Include="CustomerStatementSetting.sql" />
     <Build Include="InvoiceEmailAndPrintSetting.sql" />
     <Build Include="WebsiteSlider.sql" />
+    <Build Include="LoginHistory.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ecommerce.refactorlog" />
