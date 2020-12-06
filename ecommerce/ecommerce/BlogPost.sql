@@ -8,5 +8,8 @@
 	[Tags] NVARCHAR(MAX) NULL,
 	[SmallImagePath] NVARCHAR(500) NULL,
 	[LargeImagePath] NVARCHAR(500) NULL,
+	[Published] BIT NOT NULL DEFAULT 0,
 	[CreatedDate] DATETIME NOT NULL,
+	[ModifiedDate] DATETIME NOT NULL,
+	[PublishedDate] DATETIME NOT NULL,
 )
