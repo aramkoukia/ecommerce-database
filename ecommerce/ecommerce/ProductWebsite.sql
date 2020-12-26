@@ -8,5 +8,7 @@
 	[WarrantyInformation] NVARCHAR(Max) NULL,
 	[AdditionalInformation] NVARCHAR(Max) NULL,
 	[UserManualPath] NVARCHAR(500) NULL,
+    [HeaderImagePath] NVARCHAR(500) NULL, 
+    [HeaderImageSize] NVARCHAR(50) NULL, 
     CONSTRAINT [FK_ProductWebsite_ToProduct] FOREIGN KEY (ProductId) REFERENCES [Product]([ProductId])
 )

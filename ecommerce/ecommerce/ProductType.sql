@@ -11,4 +11,6 @@
     [Disabled] BIT DEFAULT 0, 
     [ParentProductTypeId] INT NULL,
     [SlugsUrl] NVARCHAR(500) NULL,
+	[ThumbnailImageSize] NVARCHAR(100) NULL, 
+	[HeaderImageSize] NVARCHAR(100) NULL,
 )
