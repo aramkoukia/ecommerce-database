@@ -101,6 +101,9 @@
     <Build Include="WebsiteSlider.sql" />
     <Build Include="LoginHistory.sql" />
     <Build Include="BlogPost.sql" />
+    <Build Include="WebsiteFaq.sql" />
+    <Build Include="WebsiteAbout.sql" />
+    <Build Include="WebsiteAboutPopOver.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ecommerce.refactorlog" />
