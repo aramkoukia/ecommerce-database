@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Idempotency]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [CreatedDate] DATETIME NOT NULL
+)
