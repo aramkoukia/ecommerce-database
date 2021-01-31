@@ -9,5 +9,8 @@
     [GstNumber] NVARCHAR(500) NULL, 
     [InvoicePhone] NVARCHAR(500) NULL, 
     [InvoiceLogoImage] NVARCHAR(MAX) NULL, 
-    [InvoiceWebsite] NVARCHAR(500) NULL
+    [InvoiceWebsite] NVARCHAR(500) NULL,
+	[WebsiteLogoUrl] NVARCHAR(500) NULL,
+	[WebsiteFavIconUrl] NVARCHAR(500) NULL,
+	[PublicWebsiteUrl] NVARCHAR(500) NULL,
 )
