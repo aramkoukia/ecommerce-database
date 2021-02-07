@@ -9,5 +9,7 @@
     [PhoneNumber] NVARCHAR(100) NULL, 
     [Disabled] BIT NOT NULL DEFAULT 0, 
     [ShowOnInvoice] BIT NOT NULL DEFAULT 1, 
-    [City] NVARCHAR(100) NULL
+    [City] NVARCHAR(100) NULL, 
+    [MapUrl] NVARCHAR(MAX) NULL, 
+    [WorkingHours] NVARCHAR(100) NULL
 )

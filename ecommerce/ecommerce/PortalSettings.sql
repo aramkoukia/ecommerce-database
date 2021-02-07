@@ -13,4 +13,8 @@
 	[WebsiteLogoUrl] NVARCHAR(500) NULL,
 	[WebsiteFavIconUrl] NVARCHAR(500) NULL,
 	[PublicWebsiteUrl] NVARCHAR(500) NULL,
+	[TwitterUrl] NVARCHAR(500) NULL,
+	[InstagramUrl] NVARCHAR(500) NULL,
+	[FacebookUrl] NVARCHAR(500) NULL,
+	[YoutubeUrl] NVARCHAR(500) NULL,
 )
