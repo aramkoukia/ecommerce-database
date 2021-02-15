@@ -105,6 +105,7 @@
     <Build Include="WebsiteAbout.sql" />
     <Build Include="WebsiteAboutPopOver.sql" />
     <Build Include="Idempotency.sql" />
+    <Build Include="WebsitePage.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ecommerce.refactorlog" />

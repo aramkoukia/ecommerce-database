@@ -11,5 +11,7 @@
     [ShowOnInvoice] BIT NOT NULL DEFAULT 1, 
     [City] NVARCHAR(100) NULL, 
     [MapUrl] NVARCHAR(MAX) NULL, 
-    [WorkingHours] NVARCHAR(100) NULL
+    [WorkingHours] NVARCHAR(100) NULL, 
+    [Email] NVARCHAR(100) NULL, 
+    [SortOrder] INT NULL
 )
